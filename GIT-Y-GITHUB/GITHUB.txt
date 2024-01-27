@@ -1,0 +1,9 @@
+CREANDO REPOSITORIO REMOTO CON README
+
+1. ingresas a github y creas el repositorio.
+2. para clonar el repositorio hacemos click en code (codigo) y copiamos la direccion https.
+3. habrimos la terminal usamos el comando GIT CLONE + la dirrecion hrttps copiada.
+4. ingresamos a el directorio clonado.
+5. modificamos el documento (opcional).
+6. para sincronizar los cambios utilizamos el comando (git push origin main).
+

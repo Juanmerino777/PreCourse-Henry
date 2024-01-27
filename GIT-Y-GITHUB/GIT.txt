@@ -1,0 +1,37 @@
+COMANDOS BASICOS EN GIT 
+
+clear = limpia la terminal.
+pwd = imprime la ruta de carpetas o directorios en los que estamos trabajando.
+ls  =  lista los elementos de la carpeta donde estamos trabajando.
+cd  = nos regresa al documento raiz.
+cd.. = nos regresa atras un directorio.
+cd + nombreDeCarpeta = nos permite ingresar a esa carpeta. 
+mkdir + nombreDeCarpeta = crea una carpeta con el nombre realizado.
+touch + nombreDeArchivo = crea un archivo vacio. (es necesario colocar la extencion Ej: html,css,js,txt,).
+rm + nombreDeArchivo = elimina el archivo nombrado.
+rm -r = elimina la carpeta o directorio nombrado.
+help = muestra un listado de comandos y sus definiciones.
+ls --help = muestra para que sirve ese comando.
+
+
+CONFIGURACION DE GIT 
+
+git --version = muestra la version de git descargada.
+git config --global user.name "nombreDeUsuario" = registra tu nombre de manera  global.
+git config --global user.email "correoDeUsuario" = registra tu correo de manera  global.
+
+
+PRIMER REPOSITORIO Y COMMIT
+
+git init = Inicializa un repositorio local nuevo.
+ls -a = muestra los archivos ocultos
+git status = verificamos el estado actual del repositorio.
+git add + nombreDeCarpeta = agrega la carpeta al area de stage.
+git add . = agrega todos los archivos al siguiente commit.
+
+PRIMER COMMIT
+commit = guarda el estado de los archivos o carpetas.
+git commit -M + nombreDeCarpeta = hace el commit directamente en la terminal.
+git log = muestra los ultimos commits realizados con la info de cada uno.
+git push = manda todos los commit  al servidor remoto.
+git pull = trae todos los cambios desde el repo remoto al local.
