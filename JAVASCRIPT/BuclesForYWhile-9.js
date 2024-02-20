@@ -1,3 +1,4 @@
+/*
 // Bucles o (ciclos de iteración) : Permiten realizar acciones que son de carácter repetitivo de manera
 // sencilla.
 
@@ -73,3 +74,4 @@ do {
 console.log(result);
 // Expected output: "12345"
 
+*/
